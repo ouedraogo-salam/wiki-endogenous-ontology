@@ -164,9 +164,12 @@ wfLoadExtension( 'TitleBlacklist' );
 wfLoadExtension( 'VisualEditor' );
 wfLoadExtension( 'WikiEditor' );
 wfLoadExtension( 'SemanticMediaWiki' );
-
+require_once __DIR__ . '/extensions/Rdfio/RDFIO.php';
 
 # End of automatically generated settings.
 # Add more configuration options below.
 
 enableSemantics( 'localhost' );
+$smwgShowFactbox = SMW_FACTBOX_NONEMPTY;
+$wgShowExceptionDetails = true;
+$wgShowDBErrorBacktrace = true;

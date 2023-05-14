@@ -68,7 +68,8 @@
 		"wikimedia/wrappedstring": "3.2.0",
 		"wikimedia/xmp-reader": "0.8.5",
 		"zordius/lightncandy": "1.2.5",
-		"mediawiki/semantic-media-wiki": "^4.1"
+		"mediawiki/semantic-media-wiki": "^4.1",
+		"rdfio/rdfio": "^3.0"
 	},
 	"require-dev": {
 		"ext-simplexml": "*",
